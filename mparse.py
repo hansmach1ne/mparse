@@ -63,16 +63,18 @@ def prepareUrls(args, urlFile):
             recreated += creds
             recreated += path
             
-            
             c = 0
             for k, v in zip(keys, values):
                 if(c == 0): recreated += "?"
                 else: recreated += "&"
+
                 recreated += "".join(k)
                 recreated += "="
                 recreated += args.param_name
-
+                c+= 1
+            
             PREPARED.append(recreated.replace("\n", ""))
+
     return PREPARED
 
 
@@ -111,4 +113,3 @@ def main():
 
 if(__name__ == "__main__"):
     main()
-
