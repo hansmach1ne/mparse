@@ -1,11 +1,11 @@
 # mparse
-Mach1ne's simple URL parser.
+Simple URL parser.
 
 
 ```
-usage: mparser.py [-f <FILE>] [-p <PARAM>] [-g] [-u] [-h]
+usage: mparse.py [-f <FILE>] [-p <PARAM>] [-g] [-u] [-h]
 
-URL data parser/helper tool
+Simple URL parser.
 
 optional arguments:
   -f <FILE>      Specify file with URLs.
