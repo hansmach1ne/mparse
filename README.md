@@ -1,11 +1,12 @@
 # mparse
-Simple URL parser.
+
+Simple URL parser for bug bounty hunting. Extracts unique URLs from a file or stdin, prepares GET parameters for other pentesting tools.
 
 
 ```
 usage: mparse.py [-f <FILE>] [-p <PARAM>] [-g] [-u] [-h]
 
-Simple URL parser.
+Simple URL parser for bug bounty hunting.
 
 optional arguments:
   -f <FILE>      Specify file with URLs.
